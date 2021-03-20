@@ -1,0 +1,83 @@
+body {
+    background: url(https://i.pinimg.com/564x/be/d9/2b/bed92bb1e10074573409fff44da9b056.jpg);
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 95%;
+}
+
+header {
+    margin-bottom: 5%;
+}
+
+main {
+    background: url(https://i.pinimg.com/564x/e0/70/84/e070849435cca451e518923b8c3c2f65.jpg);
+    padding: 2% 5% 5% 5%;
+    margin: 5% 5% 5% 5%;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+div {
+    border: solid rgba(128, 128, 128, 0.301) 1px;
+    padding-bottom: 2%;;
+    margin-bottom: 3%;
+    background-color: white;
+}
+
+#start, #box{
+    background: url(https://i.pinimg.com/564x/e0/70/84/e070849435cca451e518923b8c3c2f65.jpg);
+    padding: 2% 0% 2% 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    box-shadow: 6px 6px 6px 1px rgba(0, 0, 0, 0.26);
+    
+}
+
+div > p {
+    margin-left: 6%;
+    margin-top: 4%;
+    font-size: 18px;
+}
+
+#strecke {
+    margin-right: 2%;
+}
+
+#boxtitel{
+    font-size: 50px;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+#boxtitel ~ p {
+    text-align: center;
+    margin-top: 3%;
+}
+
+#ratseltitel {
+    margin-top: 6%;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: solid rgba(128, 128, 128, 0.301) 1px;
+    
+
+}
+
+@media only screen and (max-width: 768px){
+    /* für Handy-Version */
+    #ratseltitel {
+        margin: 6% 30% 2% 30%;
+    }
+}
