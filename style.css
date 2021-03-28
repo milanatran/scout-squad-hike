@@ -25,7 +25,7 @@ h1 {
 
 div {
     border: solid rgba(128, 128, 128, 0.301) 1px;
-    padding-bottom: 2%;;
+    padding-bottom: 2%;
     margin-bottom: 3%;
     background-color: white;
 }
@@ -42,6 +42,7 @@ div {
 div > p {
     margin-left: 6%;
     margin-top: 4%;
+    margin-right: 6%;
     font-size: 18px;
 }
 
@@ -80,4 +81,49 @@ div > p {
     #ratseltitel {
         margin: 6% 30% 2% 30%;
     }
+}
+
+#ostern {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 50%;
+}
+
+#himmelsrichtungen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 90%;
+}
+
+#regenbogen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 90%;
+}
+
+#wappen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 80%;
+}
+
+details {
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+#bucher {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 80%;
 }
