@@ -3,48 +3,40 @@
 //TIPP LSG BOX 1 RÄTSEL 1
 
 function tip1b1r1() {
-    alert("Hier ist Tipp 1!");
+    alert("Hier ist ein Objekt gesucht.");
 }
 
 function tip2b1r1() {
-    alert("Hier ist Tipp 2!");
+    alert("Das Objekt hat drei Farben.");
 }
 
 function tip3b1r1() {
-    alert("Hier ist Tipp 3!");
+    alert("Das Objekt gibt es an jeder Straße.");
 }
 
 function answerB1R1() {
-    let input = document.getElementById("inputB1R1").value;
-    var answer = "hello"; //hier dann die richtige Lösung
+    let input = document.getElementById("inputB1R1").value.toLowerCase();
+    var answer = "ampel"; //hier dann die richtige Lösung
     if (input == answer) {
-        alert("Richtig!");
+        alert("Die Antwort ist richtig!");
     } else {
-        alert("Falsch!");
+        alert("Die Antwort ist falsch. Versuch es nochmal!");
     }
 }
 
 //TIPP LSG BOX 1 RÄTSEL 2
 
 function tip1b1r2() {
-    alert("Hier ist Tipp 1!");
-}
-
-function tip2b1r2() {
-    alert("Hier ist Tipp 2!");
-}
-
-function tip3b1r2() {
-    alert("Hier ist Tipp 3!");
+    alert("Lies dir den Anfang nochmal genau durch.");
 }
 
 function answerB1R2() {
-    let input = document.getElementById("inputB1R2").value;
-    var answer = "hello"; //hier dann die richtige Lösung
+    let input = document.getElementById("inputB1R2").value.toLowerCase();
+    var answer = "olivia"; //hier dann die richtige Lösung
     if (input == answer) {
-        alert("Richtig!");
+        alert("Richtige Antwort, sehr gut!");
     } else {
-        alert("Falsch!");
+        alert("Leider nicht richtig.");
     }
 }
 
