@@ -127,3 +127,11 @@ details {
     margin-bottom: 5%;
     width: 80%;
 }
+
+#titelbild {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 80%;
+}

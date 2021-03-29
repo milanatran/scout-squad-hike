@@ -18,7 +18,7 @@ function answerB1R1() {
     let input = document.getElementById("inputB1R1").value.toLowerCase();
     var answer = "ampel"; //hier dann die richtige Lösung
     if (input == answer) {
-        alert("Die Antwort ist richtig!");
+        alert("Die Antwort ist richtig! Geheimbuchstabe: H");
     } else {
         alert("Die Antwort ist falsch. Versuch es nochmal!");
     }
@@ -34,7 +34,7 @@ function answerB1R2() {
     let input = document.getElementById("inputB1R2").value.toLowerCase();
     var answer = "olivia"; //hier dann die richtige Lösung
     if (input == answer) {
-        alert("Richtige Antwort, sehr gut!");
+        alert("Richtige Antwort, sehr gut! Geheimbuchstabe: U");
     } else {
         alert("Leider nicht richtig.");
     }
@@ -60,7 +60,7 @@ function answerB2R1() {
     let input = document.getElementById("inputB2R1").value.toLowerCase();
     var answer = "ostern"; //hier dann die richtige Lösung
     if (input == answer) {
-        alert("Das ist korrekt!");
+        alert("Das ist korrekt! Geheimbuchstabe: O");
     } else {
         alert("Versuch es nochmal.");
     }
@@ -84,7 +84,7 @@ function answerB2R2() {
     let input = document.getElementById("inputB2R2").value;
     var answer = 1536; //hier dann die richtige Lösung
     if (input == answer) {
-        alert("Korrekt! Weiter so.");
+        alert("Korrekt! Weiter so. Geheimbuchstabe: N");
     } else {
         alert("Leider falsch...");
     }
@@ -110,7 +110,7 @@ function answerB3R1() {
     let input = document.getElementById("inputB3R1").value;
     var answer = 243; //hier dann die richtige Lösung
     if (input == answer) {
-        alert("Das ist die richtige Antwort!");
+        alert("Das ist die richtige Antwort! Geheimbuchstabe: G");
     } else {
         alert("Das ist die falsche Antwort...");
     }
@@ -122,7 +122,7 @@ function answerB3R2() {
     let input = document.getElementById("inputB3R2").value.toLowerCase;
     var answer = "b"; //hier dann die richtige Lösung
     if (input == answer) {
-        alert("Richtig!");
+        alert("Richtig! Geheimbuchstabe: D");
     } else {
         alert("Leider nicht korrekt.");
     }
@@ -148,7 +148,7 @@ function answerB4R1() {
     let input = document.getElementById("inputB4R1").value;
     var answer = 6739; //hier dann die richtige Lösung
     if (input == answer) {
-        alert("Bravo! Richtige Antwort.");
+        alert("Bravo! Richtige Antwort. Geheimbuchstabe: A");
     } else {
         alert("Oh nein, du hast dich vertan!");
     }
@@ -156,24 +156,37 @@ function answerB4R1() {
 
 //TIPP LSG BOX 4 RÄTSEL 2
 
-function tip1b4r2() {
-    alert("Hier ist Tipp 1!");
-}
-
-function tip2b4r2() {
-    alert("Hier ist Tipp 2!");
-}
-
-function tip3b4r2() {
-    alert("Hier ist Tipp 3!");
-}
 
 function answerB4R2() {
     let input = document.getElementById("inputB4R2").value;
     var answer = 35; //hier dann die richtige Lösung
     if (input == answer) {
-        alert("Wunderbar! Das war korrekt.");
+        alert("Wunderbar! Das war korrekt. Geheimbuchstabe: O");
     } else {
         alert("Das war nicht die richtige Antwort.");
+    }
+}
+
+//TIPP LSG BOX 5
+
+function tip1b5() {
+    alert("Es ist auf Vietnamesisch.");
+}
+
+function tip2b5() {
+    alert("Es sind zwei Wörter.");
+}
+
+function tip3b5() {
+    alert("Es ist das Wort 'Pfadfinder' auf Vietnamesisch.");
+}
+
+function answerB5() {
+    let input = document.getElementById("inputB5").value.toLowerCase();
+    var answer = "huongdao"; //hier dann die richtige Lösung
+    if (input == answer) {
+        alert("Herzlichen Glückwunsch! Du hast alle Rätsel richtig gelöst.");
+    } else {
+        alert("Das war es leider nicht. Versuch es noch einmal.");
     }
 }
