@@ -119,7 +119,7 @@ function answerB3R1() {
 //LSG BOX 3 RÄTSEL 2
 
 function answerB3R2() {
-    let input = document.getElementById("inputB3R2").value.toLowerCase;
+    let input = document.getElementById("inputB3R2").value.toLowerCase();
     var answer = "b"; //hier dann die richtige Lösung
     if (input == answer) {
         alert("Richtig! Geheimbuchstabe: D");
